@@ -1,0 +1,64 @@
+body{
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+body > p {
+    font-size: 15px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.navigation-bars{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+gap: 60px;
+}
+.middle{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.web3img > img{
+    height: 200px;
+    /* width: 300px; */
+}
+.web3content{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+.heading{
+    font-size: 7px;
+}
+.matter{
+    width: 250px;
+}
+.readmore > button{
+   background-color:  hsl(5, 85%, 63%)
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+.left-container > h3{
+    color: blueviolet;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-sub{
+    display: flex;
+    flex-direction: row;
+}
+.bottom-sub-image{
+    width: 10px;
+    height: 10px;
+}
